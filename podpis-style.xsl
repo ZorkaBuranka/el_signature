@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="/">
-Moje meno
-MENO: <xsl:value-of select="formData/name"/>
-
-</xsl:template>
-</xsl:stylesheet>
+<?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"><xsl:template match="/">\nMoje meno\nMENO: <xsl:value-of select="formData/name"/>\n</xsl:template></xsl:stylesheet>
